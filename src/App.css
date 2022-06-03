@@ -1,17 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-body{
-  /* background-color: #141E30;
-  background: linear-gradient(to right, #24243e, #141E30, #0f0c29);  */
-  
-    
-}
+
 .logo{
   object-fit: contain;
-    /* width: 100%;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     width: 15vw;
     vertical-align: middle;
     border-style: none;
@@ -24,7 +14,6 @@ body{
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .projectCardContain {
-  /* display: inline-block; */
   border-radius: 10px;
   overflow: hidden;
   height: 67vh;
@@ -36,7 +25,6 @@ body{
   border-width: 2px;
   border-color: rgb(221, 221, 221);
   padding: 0px !important;
-  /* height: 268px; */
 }
 .top_bar_box {
   background-color: #007aff;
@@ -46,19 +34,14 @@ body{
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  /* width: 180px; */
   width: 92%;
   padding: 10px;
   cursor: pointer;
   font-weight: bold;
   font-family: "Poppins";
-  /* line-height: 1; */
 }
 .projectContentContainer {
   padding: 0px 8px;
-  /* padding-top: 0px; */
-  /* padding-bottom: 0px; */
-  /* background-color: green; */
 }
 .iconsPROJECTCARD {
   display: flex;
@@ -92,7 +75,6 @@ body{
 /* card */
 .card-form h2 {
   text-align: center;
-  /* color: var(--bgColor); */
   color: black;
 }
 
@@ -116,8 +98,7 @@ body{
   border-radius: 2em;
   
 }
-.css-1frzu4-MuiPaper-root-MuiCard-root{
-}
+
 .css-mz22oe-MuiPaper-root-MuiCard-root:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   transform: scale(1.04);
@@ -135,15 +116,12 @@ body{
   background-color: #fff;
   height: 11em;
   border-bottom: 1px solid rgb(121, 121, 121);
-  /* display: flex; */
 }
 .css-1ri6ub7-MuiPaper-root-MuiCard-root{
   margin-left: 1em;
 }
 .avatarContainer {
-  /* position: absolute; */
   transform: translate(120px,-150px);
-  /* margin-top: -35px; */
   height: 3em;
   width: 3em;
   border-radius: 50%;
@@ -151,12 +129,9 @@ body{
  text-align: center;
  justify-content: center;
   z-index: 10;
-  /* margin-top: -18px; */
   display: flex;
   align-items: center;
-  /* margin-left: 2em; */
   color: #fff;
-  /* justify-content: center; */
 }
 
 
@@ -170,7 +145,6 @@ body{
 .info{
   border-bottom: 1px solid #178ca4 !important;
   margin-bottom: 1em !important;
-  /* padding-bottom: 1em !important; */
 }
 .iconText{
   display: flex;
@@ -210,16 +184,13 @@ body{
   margin-bottom: 2em;
 }
 .col-lg-3 {
-  /* display: flex;
-  /* flex: 0 0 auto; */
   width: 65% !important;
 }
 
 .col-md-3 {
-  /* display: flex; */
   justify-content: space-around;
   align-items: center;
-} */
+} 
 
 .css-1ri6ub7-MuiPaper-root-MuiCard-root {
   /* box-shadow: rgba(136, 14, 79, 0.1) 0px 0px 0px 2px !important; */

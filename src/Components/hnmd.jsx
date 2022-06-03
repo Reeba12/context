@@ -8,24 +8,17 @@
                   variant='h5'
                   component='div'
                   className='cards-head'
-                // sx={{ textAlign: 'center', fontWeight: 'bold' }}
                 >
                   <b>Project23_yasir</b>
                 </Typography>
                 
-                {/* <Typography
-                  gutterBottom
-                  component='div'
-                  variant='body1'
-                  className='cards-typography'
-                >
-                </Typography> */}
+               
                 
                 <div className='sub'>
-                  <Typography variant='inherit' /* color='text.secondary' */>
+                  <Typography variant='inherit' >
                     <b>Templates</b>: General
                   </Typography>
-                  <Typography variant='inherit' className='right'/* color='text.secondary' */>
+                  <Typography variant='inherit' className='right'>
                     <b>Tag</b>: jpg, png, mp3
                   </Typography>
                 </div>
@@ -42,7 +35,7 @@
                     
                 </div>
 
-                <Typography variant='inherit' /* color='text.secondary' */ sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
+                <Typography variant='inherit'  sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
                 <b>File Types</b>: MP3, JPG, PNG, MP4, PDF, XML, CSV
                 </Typography>
               </CardContent>
@@ -55,7 +48,6 @@
                   variant='h5'
                   component='div'
                   className='cards-head'
-                // sx={{ textAlign: 'center', fontWeight: 'bold' }}
                 >
                   <b>Project23_yasir</b>
                 </Typography>
@@ -68,10 +60,10 @@
                 </Typography>
                 
                 <div className='sub'>
-                  <Typography variant='inherit' /* color='text.secondary' */>
+                  <Typography variant='inherit' >
                     <b>Templates</b>: General
                   </Typography>
-                  <Typography variant='inherit' className='right'/* color='text.secondary' */>
+                  <Typography variant='inherit' className='right'>
                     <b>Tag</b>: jpg, png, mp3
                   </Typography>
                 </div>
@@ -88,7 +80,7 @@
                     
                 </div>
 
-                <Typography variant='inherit' /* color='text.secondary' */ sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
+                <Typography variant='inherit'  sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
                 <b>File Types</b>: MP3, JPG, PNG, MP4, PDF, XML, CSV
                 </Typography>
               </CardContent>
@@ -101,7 +93,7 @@
                   variant='h5'
                   component='div'
                   className='cards-head'
-                // sx={{ textAlign: 'center', fontWeight: 'bold' }}
+
                 >
                   <b>Project23_yasir</b>
                 </Typography>
@@ -114,10 +106,10 @@
                 </Typography>
                 
                 <div className='sub'>
-                  <Typography variant='inherit' /* color='text.secondary' */>
+                  <Typography variant='inherit' >
                     <b>Templates</b>: General
                   </Typography>
-                  <Typography variant='inherit' className='right'/* color='text.secondary' */>
+                  <Typography variant='inherit' className='right'>
                     <b>Tag</b>: jpg, png, mp3
                   </Typography>
                 </div>
@@ -134,7 +126,7 @@
                     
                 </div>
 
-                <Typography variant='inherit' /* color='text.secondary' */ sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
+                <Typography variant='inherit'  sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
                 <b>File Types</b>: MP3, JPG, PNG, MP4, PDF, XML, CSV
                 </Typography>
               </CardContent>
@@ -150,7 +142,6 @@
                   variant='h5'
                   component='div'
                   className='cards-head'
-                // sx={{ textAlign: 'center', fontWeight: 'bold' }}
                 >
                   <b>Project23_yasir</b>
                 </Typography>
@@ -163,10 +154,10 @@
                 </Typography>
                 
                 <div className='sub'>
-                  <Typography variant='inherit' /* color='text.secondary' */>
+                  <Typography variant='inherit' >
                     <b>Templates</b>: General
                   </Typography>
-                  <Typography variant='inherit' className='right'/* color='text.secondary' */>
+                  <Typography variant='inherit' className='right'>
                     <b>Tag</b>: jpg, png, mp3
                   </Typography>
                 </div>
@@ -183,7 +174,7 @@
                     
                 </div>
 
-                <Typography variant='inherit' /* color='text.secondary' */ sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
+                <Typography variant='inherit'  sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
                 <b>File Types</b>: MP3, JPG, PNG, MP4, PDF, XML, CSV
                 </Typography>
               </CardContent>
@@ -196,7 +187,6 @@
                   variant='h5'
                   component='div'
                   className='cards-head'
-                // sx={{ textAlign: 'center', fontWeight: 'bold' }}
                 >
                   <b>Project23_yasir</b>
                 </Typography>
@@ -209,10 +199,10 @@
                 </Typography>
                 
                 <div className='sub'>
-                  <Typography variant='inherit' /* color='text.secondary' */>
+                  <Typography variant='inherit' >
                     <b>Templates</b>: General
                   </Typography>
-                  <Typography variant='inherit' className='right'/* color='text.secondary' */>
+                  <Typography variant='inherit' className='right'>
                     <b>Tag</b>: jpg, png, mp3
                   </Typography>
                 </div>
@@ -229,7 +219,7 @@
                     
                 </div>
 
-                <Typography variant='inherit' /* color='text.secondary' */ sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
+                <Typography variant='inherit'  sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
                 <b>File Types</b>: MP3, JPG, PNG, MP4, PDF, XML, CSV
                 </Typography>
               </CardContent>
@@ -242,7 +232,6 @@
                   variant='h5'
                   component='div'
                   className='cards-head'
-                // sx={{ textAlign: 'center', fontWeight: 'bold' }}
                 >
                   <b>Project23_yasir</b>
                 </Typography>
@@ -255,10 +244,10 @@
                 </Typography>
                 
                 <div className='sub'>
-                  <Typography variant='inherit' /* color='text.secondary' */>
+                  <Typography variant='inherit' >
                     <b>Templates</b>: General
                   </Typography>
-                  <Typography variant='inherit' className='right'/* color='text.secondary' */>
+                  <Typography variant='inherit' className='right'>
                     <b>Tag</b>: jpg, png, mp3
                   </Typography>
                 </div>
@@ -275,7 +264,7 @@
                     
                 </div>
 
-                <Typography variant='inherit' /* color='text.secondary' */ sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
+                <Typography variant='inherit'  sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
                 <b>File Types</b>: MP3, JPG, PNG, MP4, PDF, XML, CSV
                 </Typography>
               </CardContent>
@@ -288,7 +277,6 @@
                   variant='h5'
                   component='div'
                   className='cards-head'
-                // sx={{ textAlign: 'center', fontWeight: 'bold' }}
                 >
                   <b>Project23_yasir</b>
                 </Typography>
@@ -301,10 +289,10 @@
                 </Typography>
                 
                 <div className='sub'>
-                  <Typography variant='inherit' /* color='text.secondary' */>
+                  <Typography variant='inherit' >
                     <b>Templates</b>: General
                   </Typography>
-                  <Typography variant='inherit' className='right'/* color='text.secondary' */>
+                  <Typography variant='inherit' className='right'>
                     <b>Tag</b>: jpg, png, mp3
                   </Typography>
                 </div>
@@ -321,7 +309,7 @@
                     
                 </div>
 
-                <Typography variant='inherit' /* color='text.secondary' */ sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
+                <Typography variant='inherit'  sx={{  color: '#178ca4',fontSize: '0.8em',textAlign:'center' }}>
                 <b>File Types</b>: MP3, JPG, PNG, MP4, PDF, XML, CSV
                 </Typography>
               </CardContent>

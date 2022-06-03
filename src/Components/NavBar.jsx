@@ -46,7 +46,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   color: 'inherit',
   '& .MuiInputBase-input': {
     padding: theme.spacing(1, 1, 1, 0),
-    // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
     transition: theme.transitions.create('width'),
     width: '100%',
@@ -167,14 +166,6 @@ export default function PrimarySearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          {/* <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ display: { xs: 'none', sm: 'block' } }}
-          >
-            
-          </Typography> */}
         <img src={logo} className='logo' alt="" srcset="" />
           <Search>
             <SearchIconWrapper>
