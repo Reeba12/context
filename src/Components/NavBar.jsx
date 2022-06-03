@@ -155,8 +155,8 @@ export default function PrimarySearchAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{boxShadow: "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px"}}>
-        <Toolbar>
+      <AppBar position="static" sx={{boxShadow: "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px", backgroundColor:"#178ca4"}}>
+        <Toolbar sx={{boxShadow: "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px", backgroundColor:"#178ca4"}}>
           <IconButton
             size="large"
             edge="start"
@@ -167,15 +167,6 @@ export default function PrimarySearchAppBar() {
             <MenuIcon />
           </IconButton>
         <img src={logo} className='logo' alt="" srcset="" />
-          <Search>
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase
-              placeholder="Search…"
-              inputProps={{ 'aria-label': 'search' }}
-            />
-          </Search>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton size="large" aria-label="show 4 new mails" color="inherit">

@@ -7,12 +7,12 @@
     border-style: none;
 }
 .css-12qj22z-MuiPaper-root-MuiAppBar-root {
-  background-color: #178ca4 !important;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  /* background-color: #178ca4 !important; */
+  /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
 }
-.css-hyum1k-MuiToolbar-root{
+/* .css-hyum1k-MuiToolbar-root{
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-}
+} */
 .projectCardContain {
   border-radius: 10px;
   overflow: hidden;
@@ -244,3 +244,11 @@
   margin-left: 10px;
   margin-right: 10px;
 } */
+@media (max-width:700px) {
+  .logo{
+    object-fit: contain;
+      width: 29vw;
+      vertical-align: middle;
+      border-style: none;
+  }
+}
