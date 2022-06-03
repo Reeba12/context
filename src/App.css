@@ -1,38 +1,275 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+  /* background-color: #141E30;
+  background: linear-gradient(to right, #24243e, #141E30, #0f0c29);  */
+  
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  object-fit: contain;
+    /* width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 15vw;
+    vertical-align: middle;
+    border-style: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-12qj22z-MuiPaper-root-MuiAppBar-root {
+  background-color: #178ca4 !important;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.css-hyum1k-MuiToolbar-root{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.projectCardContain {
+  /* display: inline-block; */
+  border-radius: 10px;
+  overflow: hidden;
+  height: 67vh;
+  background: white;
+  margin: 10px 0px;
+  width: 25vw;
+  max-width: 50vw;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(221, 221, 221);
+  padding: 0px !important;
+  /* height: 268px; */
+}
+.top_bar_box {
+  background-color: #007aff;
+  color: #fff;
+}
+.top_bar_box_p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  /* width: 180px; */
+  width: 92%;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Poppins";
+  /* line-height: 1; */
+}
+.projectContentContainer {
+  padding: 0px 8px;
+  /* padding-top: 0px; */
+  /* padding-bottom: 0px; */
+  /* background-color: green; */
+}
+.iconsPROJECTCARD {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  cursor: pointer;
+  transition: 1000ms all ease;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.projectAnalyticP {
+  padding-left: 15px;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: bold;
+  line-height: 1.6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 90%;
+}
+.iconsPROJECTCARD {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  transition: 1000ms all ease;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+/* card */
+.card-form h2 {
+  text-align: center;
+  /* color: var(--bgColor); */
+  color: black;
+}
+
+.tradecardinfo {
+  text-align: justify;
+  text-align-last: center;
+  padding: 2em 20em 2em 20em;
+  background-color: #fff;
+  margin: 1em 0 1em 0;
+  color: #fff
+}
+
+
+.cards {
+  margin: 2em;
+  width: auto;
+  background-color: pink;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.css-mz22oe-MuiPaper-root-MuiCard-root{
+  border-radius: 2em;
+  
+}
+.css-1frzu4-MuiPaper-root-MuiCard-root{
+}
+.css-mz22oe-MuiPaper-root-MuiCard-root:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transform: scale(1.04);
+}
+.mainCard{
+  max-width: 1000px ;
+   color:'#178ca4';
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   color:'#178ca4';
+}
+.css-h93ljk-MuiTypography-root{
+  margin-top: 0 !important;
+}
+.Top-cards {
+  background-color: #fff;
+  height: 11em;
+  border-bottom: 1px solid rgb(121, 121, 121);
+  /* display: flex; */
+}
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+  margin-left: 1em;
+}
+.avatarContainer {
+  /* position: absolute; */
+  transform: translate(120px,-150px);
+  /* margin-top: -35px; */
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: #007aff;
+ text-align: center;
+ justify-content: center;
+  z-index: 10;
+  /* margin-top: -18px; */
+  display: flex;
+  align-items: center;
+  /* margin-left: 2em; */
+  color: #fff;
+  /* justify-content: center; */
+}
+
+
+
+.sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9em;
+}
+.info{
+  border-bottom: 1px solid #178ca4 !important;
+  margin-bottom: 1em !important;
+  /* padding-bottom: 1em !important; */
+}
+.iconText{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+.right{
+  align-items: flex-end !important;
+}
+.icon{
+  color: #178ca4 !important;
+}
+
+
+.Top-cards div {
+  width: 100%;
+  height: 9em;
+  border-radius: 1em;
+  margin-left: 1em;
+}
+
+.lower img {
+  width: inherit;
+  height: inherit;
+  margin-top: 2em;
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.upper img {
+  width: inherit;
+  height: inherit;
+  border-radius: 0 0 0.5em 0.5em;
+}
+.card_row{
+  margin-bottom: 2em;
+}
+.col-lg-3 {
+  /* display: flex;
+  /* flex: 0 0 auto; */
+  width: 65% !important;
+}
+
+.col-md-3 {
+  /* display: flex; */
+  justify-content: space-around;
+  align-items: center;
+} */
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  /* box-shadow: rgba(136, 14, 79, 0.1) 0px 0px 0px 2px !important; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset !important;
+  /* box-shadow: rgba(95, 53, 53, 0.1) 0px 0px 5px 0px, rgba(54, 4, 4, 0.1) 0px 0px 1px 0px !important; */
+  /* box-shadow: rgba(212, 73, 143, 0.4) 0px 0px 0px 2px,rgba(210, 18, 18, 0.65) 0px 4px 6px -1px, rgba(160, 183, 152, 0.08) 0px 1px 0px inset !important; */
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important; */
+  /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset !important; */
+}
+
+.css-h93ljk-MuiTypography-root {
+  margin-top: 0 !important;
+  margin-bottom: 0em !important;
+  
+}
+
+.cards-head {
+  background-color: #178ca4;
+  color: #fff;
+  text-align: center !important;
+  font-weight: bolder !important;
+  padding: 0.4em  0;
+}
+
+.cards-typography {
+  text-align: center !important;
+
+}
+/* 
+.header {
+  width: 100%;
+}
+
+.header_right {
   color: white;
+  font-size: 1em;
+  border-right: 1px solid #fff;
+  padding-right: 0.4em;
+  margin-right: 0.9em;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  padding-left: 10px;
+ 
+  border-radius: 8px 8px 0px 0px;
+  background-color: var(--bgColor);
+  margin-left: 10px;
+  margin-right: 10px;
+} */
